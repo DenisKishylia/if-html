@@ -112,14 +112,10 @@ height: 10px;
     font-family: "Roboto";
     font-size: medium;
     color: #ffff;
+    margin-top:15px;
   }
 
-  li:before {
-    content: "";
-    display: inline-block;
-    height: 100%;
-    vertical-align: middle;
-} 
+
 
 a {
   color: #ffff;
