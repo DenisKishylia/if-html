@@ -33,10 +33,110 @@
     font-family: "Roboto";
   }
 
+  .header {
+    max-width: 1440px;
+    height: 100vh;
+    margin: 0px auto;
+    background:#10367C url(./img/castelmezzano-1979546\ 1.svg) no-repeat;
+    background-attachment: fixed;
+  }
+
+  .header__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: space-between;
+  }
+
+  .header__logo {
+    margin-left: 140px;
+    width: 205px;
+    height: 40px;
+  }
+
+  .header__nav {
+    margin-right: 104px;
+  }
+
+  .header__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+ .header__item {
+   margin-right: 24px;
+   list-style-type: none;
+   display:inline;
+   justify-content: center;
+   color: white;
+  } 
+
+  .header__link {
+    color: white;
+  }
+ 
+  .content {
+    max-width: 1232px;
+    max-height: 487px;
+    width: 1232px;
+    height: 487px;
+    margin: 202px 104px 120px 104px;
+  }
+  .content-title__text {
+    max-width: 542px;
+    max-height: 118px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 59px;
+    text-align: left;
+    color: #ffffff;
+  }
+  .sbar__lables {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 104px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #ffffff;
+  }
+  .sbar-lables__destination {
+    margin-left: 24px;
+  }
+  .sbar-lables__date {
+    margin-left: 221px;
+  }
+  .sbar__input {
+    display: flex;
+    flex-direction: row;
+  }
+  .sbar-input__destination {
+    width: 467px;
+    height: 64px;
+    background: #ffffff;
+    border: 3px solid #f3f3f4;
+    box-sizing: border-box;
+    border-radius: 8px;
+  }
+  .sbar__button {
+    width: 78px;
+  }
+  .market__links {
+    margin-top: 120px;
+    margin-left: 500px;
+  }
+
 .container {
     margin: 0px auto;
   text-align: center;
   max-width: 1200px;
+  height: 100vh;
 }
 .offer_title {
     margin-bottom: 200px;
@@ -48,7 +148,7 @@
  position: absolute;
  display: block;
  width: 100px;
-height: 10px;
+ height: 10px;
  margin: 0px auto;
  top: 100px;
  left: 0;
@@ -86,6 +186,7 @@ height: 10px;
     width: 1440px;
     margin: 0px auto;
     padding:10px 0;
+    height: 100vh;
   }
 
   .footer-content {
@@ -96,18 +197,15 @@ height: 10px;
   .footer-content__list {
     margin: 120px 0px;
     padding: 20px;
-    
+    list-style: none;
+    padding: 20px;
   }
 
   .footer-content__list ul:first-child {
     margin-bottom: 20px;
   }
 
-  ul {
-    list-style: none;
-    padding: 20px;
-  }
-  li {
+  .footer__item {
     height: 50px;
     font-family: "Roboto";
     font-size: medium;
@@ -117,7 +215,7 @@ height: 10px;
 
 
 
-a {
+  .footer-content_link {
   color: #ffff;
 }
 
