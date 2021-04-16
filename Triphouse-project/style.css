@@ -39,6 +39,7 @@
     margin: 0px auto;
     background:#10367C url(./img/castelmezzano-1979546\ 1.svg) no-repeat;
     background-attachment: fixed;
+    background-size: cover;
   }
 
   .header__wrapper {
