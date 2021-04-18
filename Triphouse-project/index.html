@@ -8,59 +8,58 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <header class="header">
-        <div class="header__wrapper">
-             <div class="header__logo">
-                 <a href="#" class="heder__logo-link">
-                     <img src="./ikons/logo_vector.svg" alt="TripHouse" class="heder_logo-img">
-                 </a>
-             </div>
-             <nav class="header__nav">
-                 <ul class="heder__list">
-                     <li class="header__item">
-                         <a href="#" class="heder__link">Stays</a>
-                     </li>
-                     <li class="header__item">
-                         <a href="#" class="heder__link">Attractions</a>
-                     </li>
-                     <li class="header__item">
-                        <a href="#" class="header__link">
-                          <img src="./ikons/Night.svg" alt="night" />
-                        </a>
-                      </li>
-                      <li class="header__item">
-                        <a href="#" class="header__link">
-                          <img src="./ikons/AccountCircle.svg" alt="AcccountCircle" />
-                        </a>
-                      </li>
-                 </ul>
-             </nav>    
-        </div>
-        <div class="content">
-            <div class="content__title">
-              <p class="content-title__text">Discover stays to live, work or just relax</p>
-              <div class="content__sbar">
-                <ul class="sbar__lables">
-                  <li class="sbar-lables__destination">Your destination or hotel name</li>
-                  <li class="sbar-lables__date">Check-in — Check-out</li>
-                </ul>
-              </div>
-              <div class="sbar__input">
-                <input type="text" class="sbar-input__destination" />
-                <input type="date" name="check-in" id="check-in" class="sbar__input" />
-                <input type="date" name="check-out" id="check-out" class="sbar__input" />
-                <input type="text" class="sbar__input" />
-                <input type="button" value="search" class="sbar__button" />
-              </div>
-              <div class="market__links">
-                <p>
-                  <img src="./img/google-play-badge.svg" alt="google play market" />
-                </p>
-                <p>
-                  <img src="./img/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917 1.svg" alt="appStore" />
-                </p>
+    <header>
+        <div class="header_bg">
+            <div class="container">
+              <div class="header">
+                <div class="header__top">
+                  <a href="">
+                    <img src="./ikons/logo.svg" alt="logo" />
+                  </a>
+                  <ul>
+                    <li class="underline"><a href="#">Stays</a></li>
+                    <li class="underline"><a href="#">Attractions</a></li>
+                    <li>
+                      <a href="#"></a>
+                    </li>
+                    <li>
+                      <a href="#"></a>
+                    </li>
+                  </ul>
+                </div>
+                <h1>
+                  Discover stays <br />
+                  to live, work or just relax
+                </h1>
+                <form action="">
+                  <div class="first">
+                    <p><label for="search">Your destination or hotel name</label></p>
+                    <input id="search" type="text" name="search" />
+                  </div>
+                  <div class="second">
+                    <p>
+                      <label for="in">Check-in</label> -
+                      <label for="out">Check-out</label>
+                    </p>
+                    <div>
+                      <input type="date" id="in" />
+      
+                      <input type="date" id="out" />
+                    </div>
+                  </div>
+                  <button>Submit</button>
+                </form>
+                <div class="header__download">
+                    <a href="#">
+                        <img src="./img/google-play-badge.svg" alt="Google Play"/>
+                    </a>
+                    <a href="#">
+                        <img src="./img/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917 1.svg" alt="App Store"/>
+                    </a>
+                </div>
               </div>
             </div>
+          </div>
     </header>
     <main class="offer">
         <div class="container">
