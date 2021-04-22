@@ -1,4 +1,3 @@
-/* roboto-regular - latin */
 @font-face {
   font-family: 'Roboto';
   font-style: normal;
@@ -26,312 +25,325 @@
 }
 
 * {
-
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Roboto";
-  }
-
-  .container {
-    max-width: 1440px;
-    margin: 0px auto;
-  }
-  .header_bg {
-    background-image: url('./ikons/background_main.svg');
-    background-size: cover;
-    background-repeat: none;
-  }
-  .header {
-    height: 100vh;
-    padding-top: 50px;
-  }
-
-  .header__top {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 200px;
-  }
-
-  .header__top ul {
-    list-style-type: none;
-    display: flex;
-    align-items: center;
-  }
-
-  .header__top ul li {
-    margin-left: 25px;
-  }
-
-  .header__top ul li a {
-    color: #fff;
-    text-decoration: none;
-  }
-
-  .underline {
-    position: relative;
-  }
-
-  .underline:hover ::after {
-    content: '';
-    width: 100%;
-    height: 5px;
-    background: gold;
-    position: absolute;
-    top: 30px;
-    left: 0;
-  }
-
-  .header__top ul li:nth-child(3) a {
-    margin-left: 50px;
-    width: 30px;
-    height: 30px;
-    display: block;
-    background-image: url('./ikons/day_mode.svg');
-  }
-
-  .header__top ul li:nth-child(4) a {
-    width: 40px;
-    height: 40px;
-    display: block;
-    background-image: url('./ikons/profile.svg');
-  }
-
-  .header__top ul li:nth-child(4):hover a {
-    background-image: url('./ikons/profile_active.svg');
-  }
-
-  .header_txt {
-    color: #fff;
-    font-size: 50px;
-    line-height: 60px;
-    margin-bottom: 100px;
-   
-  }
-
-  form {
-    display: flex;
-  }
-
-  form p {
-      color: #fff;
-      margin-bottom: 30px;
-  }
-
-  form .second div{
-      display: flex;
-  }
-  form input {
-      height: 65px;
-      width: 100%;
-  }
-
-  form .first {
-      flex-grow: 3;
-  }
-
-  form .second {
-      flex-grow: 2;
-  }
-
-  form button {
-      flex-grow: 1;
-      height: 65px;
-      margin-top: 48px;
-  }
-
-  .header__download {
-    margin-top: 240px;
-  }
-
-.container {
-    margin: 0px auto;
-  text-align: center;
-  max-width: 1200px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto";
+}
+.header_bg {
+  background-image: url('./img/castelmezzano-1979546\ 1.svg');
+  background-size: cover;
+  background-repeat: none;
+}
+.header {
   height: 100vh;
 }
+
+.header__top {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 200px;
+}
+
+.header__top ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+}
+
+.header__top ul li {
+  margin-left: 25px;
+}
+
+.header__top ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.underline {
+  position: relative;
+}
+
+.underline:hover ::after {
+  content: '';
+  width: 100%;
+  height: 5px;
+  background: gold;
+  position: absolute;
+  top: 30px;
+  left: 0;
+}
+
+.header__top ul li:nth-child(3) a {
+  margin-left: 50px;
+  width: 30px;
+  height: 30px;
+  display: block;
+  background-image: url('./ikons/Night.svg');
+}
+
+.header__top ul li:nth-child(4) a {
+  width: 40px;
+  height: 40px;
+  display: block;
+  background-image: url('./ikons/profile.svg');
+}
+
+.header__top ul li:nth-child(4):hover a {
+  background-image: url('./ikons/profile_active.svg');
+}
+
+.header_txt {
+  color: #fff;
+  font-size: 50px;
+  line-height: 60px;
+  margin-bottom: 100px;
+}
+
+form {
+  display: flex;
+}
+
+form p {
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+form .second div{
+    display: flex;
+}
+form input {
+    height: 65px;
+    width: 100%;
+}
+
+form .first {
+    flex-grow: 3;
+    border-radius: 15px;
+}
+
+form .second {
+    flex-grow: 2;
+}
+
+form button {
+    flex-grow: 1;
+    height: 65px;
+    margin-top: 49px;
+    background: #3077C6;
+    border-radius: 5px;
+} 
+
+.header__download {
+  margin-left: 25px;
+  margin-top: 100px;
+}
+
+.container {
+  margin: 0px auto;
+text-align: center;
+max-width: 1200px;
+height: 100vh;
+margin-top: 80px;
+}
 .offer_title {
-    margin-bottom: 200px;
-    position: relative;
+  margin-bottom: 200px;
+  position: relative;
 }
 
 .offer_title::after {
- content: '';
- position: absolute;
- display: block;
- width: 100px;
- height: 10px;
- margin: 0px auto;
- top: 100px;
- left: 0;
- right: 0;
- background: #f5bd41;
+content: '';
+position: absolute;
+display: block;
+width: 100px;
+height: 10px;
+margin: 0px auto;
+top: 100px;
+left: 0;
+right: 0;
+background: #f5bd41;
 }
 
 .offer_items {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
-@media (max-width: 800px) {
-    .container .offer_items {
-      display: flex;
-      flex-direction: column;
-    }
-  }
+.offer__item-img {
+  width: 90px;
+  display: block;
+  margin: 0px auto;
+}
 
-  .offer__item-img {
-    width: 90px;
-    display: block;
-    margin: 0px auto;
-  }
+.offer_items span {
+  text-align: center;
+  padding-bottom: 122px;
+  font-size: 25px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
 
-  .offer_items span {
-    text-align: center;
-    padding-bottom: 122px;
-    font-size: 25px;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  }
+footer {
+  background: #10367C;
+  margin: 0px auto;
+  padding:10px 0;
+  height: 100vh;
+}
 
-  footer {
-    background: #10367C;
-    width: 1440px;
-    margin: 0px auto;
-    padding:10px 0;
-    height: 100vh;
-  }
+.footer-content {
+  display: flex;
+    Justify-content:space-around;
+  flex-direction: row
+}
+.footer-content__list {
+  margin: 120px 0px;
+  padding: 20px;
+  list-style: none;
+  padding: 20px;
+}
 
-  .footer-content {
-    display: flex;
-	  Justify-content:space-around;
-    flex-direction: row
-  }
-  .footer-content__list {
-    margin: 120px 0px;
-    padding: 20px;
-    list-style: none;
-    padding: 20px;
-  }
+.footer-content__list ul:first-child {
+  margin-bottom: 20px;
+}
 
-  .footer-content__list ul:first-child {
-    margin-bottom: 20px;
-  }
-
-  .footer__item {
-    height: 50px;
-    font-family: "Roboto";
-    font-size: medium;
-    color: #ffff;
-    margin-top:15px;
-  }
-
-
-
-  .footer-content_link {
+.footer__item {
+  height: 50px;
+  font-family: "Roboto";
+  font-size: medium;
   color: #ffff;
+  margin-top:15px;
+}
+
+
+
+.footer-content_link {
+color: #ffff;
 } 
 
 .footer__mobile_wrapper {
-  text-align: center;
-  max-width: 800px;
+text-align: center;
+max-width: 800px;
 }
 
 .footer__mobile_wrapper ul {
-  list-style-type: none;
-  display: flex;
-  justify-content: space-between;
-  margin: 40px 0px 32px;
+list-style-type: none;
+display: flex;
+justify-content: space-between;
+margin: 40px 0px 32px;
 }
 
 .footer__mobile_wrapper ul a {
-  color: #fff;
+color: #fff;
 }
 
 .footer__info {
- color: rgb(255, 255, 255);
-  margin-left: 180px;
-  font-size: 14px;
-  line-height: 16px;}  
+color: rgb(255, 255, 255);
+margin-left: 180px;
+font-size: 14px;
+line-height: 16px;} 
 
-   @media(min-width: 801px){
-    .header__mob {
-      display: none;
-    }
-   }
+    /* Header */
 
-  @media (max-width: 800px) {
-    .header {
-      display: none;
-    }
-  
-    .header__mob {
-      padding: 30px 10px 40px;
-      min-height: 535px;
-      background: url(../img/header-background.png) none;
-      display: block;
-    }
-  
-    .header__menu_mob {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
-  
-    .header__logo_mob {
-      display: flex;
-      margin-bottom: 12px;
-    }
-  
-    .header__buttons_mob {
-      display: flex;
-      padding-left: 102px;
-      margin-right: 0px;
-    }
-  
-    .header__buttons_mob a {
-      display: flex;
-      margin: 12px 8px;
-    }
-  
-    .header__search_mob {
-      padding-left: 12px;
-      padding-top: 52px;
-      font-family: Roboto;
-      font-weight: 500;
-      font-size: 30px;
-      color: #ffffff;
-    }
-  
-    .header__download_mob {
-      padding-top: 250px;
-      padding-left: 40px;
-      margin-top: 217px;
-      text-align: center;
-    }
-  
-
-  @media (max-width: 800px) {
-    footer {
-      padding: 40px 70px;
-    }
-    .footer-content {
-      display: none;
-    }
-    .footer__mobile_wrapper {
-      display: block;
-    }
-    .footer__info {
-      text-align: center;
-    }
+@media (min-width: 561px){
+  .form__mobile {
+    display: none;
   }
+}
+
+@media (max-width: 560px) {
+  /* header */
+
+ .container {
+   display: none;
+ }
+ .header__bg_mob {
+   display:block;
+   background-image: url(./img/castelmezzano-1979546\ 1.svg);
+   margin-top: 100px;
+   background-size: cover;
+   background-repeat: none;
+ }
+
+  .header__wrapper_mob{
+    color: #3077C6;
+  }
+
+
+ .header_txt_mob{
+   color: white;
+ }
+
+ .form__mobile {
+   width: 328px;
+   height: 232px;
+   display: flex;
+   justify-content: center;
+   margin: 0px auto;
+   background: #F5BD41;
+ }
+ .form__mobile_destination {
   
-  @media (min-width: 801px) {
-    footer {
-      padding: 120px 105px;
-    }
-    .footer-content {
-      display: flex;
-    }
-    .footer__mobile_wrapper {
-      display: none;
-    }
+   width: 1200px;
+   height: 15px;
+ }
+ .form__mobile_date {
+   margin-top: 80px;
+   
+ }
+ .form__mobile_persons {
+   margin-top: 260px;
+ }
+}
+
+   /* Main */
+
+ @media (min-width:561px){
+   .content_mob {
+     display: none;
+   }
+ }
+
+@media (max-width: 560px) {
+  .content_mob {
+    display: block;
+}
+.content_mob h2 {
+    font-style: 28px;
+    font-weight: 500;
+    text-align: center;
+    margin: 24px 73px;
+}
+.content_items_mob div {
+    align-items: center;
+    text-align: center;
+}
+.content_item {
+    display: block;
+}
+.content_item_mob {
+    margin: 0px 73px;
+}
+.content_item_mob img {
+    margin-top: 30px;
+}
+.content_item_mob p {
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+}
+    /* Footer */
+@media (min-width:561px){
+  .footer__mobile_wrapper {
+    display: none;
+  }
+}
+
+@media (max-width:560px){
+  .footer-content__list {
+    display: none;
+  }
+  .footer__mobile_wrapper {
+    display: block;
+  }
+}
