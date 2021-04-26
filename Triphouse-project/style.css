@@ -30,8 +30,13 @@
   box-sizing: border-box;
   font-family: "Roboto";
 }
+
+.container {
+  margin: 0px auto;
+}
+
 .header_bg {
-  background-image: url('./img/castelmezzano-1979546\ 1.svg');
+  background-image: url('./ikons/background_main.svg');
   background-size: cover;
   background-repeat: none;
 }
@@ -79,7 +84,8 @@
   width: 30px;
   height: 30px;
   display: block;
-  background-image: url('./ikons/Night.svg');
+  background-image: url('./ikons/day_mode.svg');
+  background-size: contain;
 }
 
 .header__top ul li:nth-child(4) a {
@@ -87,10 +93,21 @@
   height: 40px;
   display: block;
   background-image: url('./ikons/profile.svg');
+  background-size: contain;
 }
 
 .header__top ul li:nth-child(4):hover a {
   background-image: url('./ikons/profile_active.svg');
+}
+
+.header__top ul li:last-child a {
+  width: 24px;
+  height: 16px;
+  display: block;
+  background-size: contain;
+  background-image: url('./img/3line.svg');
+  background-repeat: no-repeat;
+  display: none;
 }
 
 .header_txt {
@@ -100,43 +117,191 @@
   margin-bottom: 100px;
 }
 
-form {
+form.desctop {
   display: flex;
 }
 
-form p {
-    color: #fff;
-    margin-bottom: 30px;
+form.desctop p {
+  color: #fff;
+  margin-bottom: 30px;
 }
 
-form .second div{
-    display: flex;
-}
-form input {
-    height: 65px;
-    width: 100%;
+form.desctop .second div {
+  display: flex;
 }
 
-form .first {
-    flex-grow: 3;
-    border-radius: 15px;
+form.desctop input {
+  height: 65px;
+  width: 100%;
+  border-top: none;
+  border-bottom: none;
+  border-right: 3px solid #cecece;
+  border-left: 3px solid #cecece;
+  border-radius: 3px;
+  outline: none;
 }
 
-form .second {
-    flex-grow: 2;
+form.desctop input:focus {
+  border-right: 3px solid gold;
+  border-left: 3px solid gold;
 }
 
-form button {
-    flex-grow: 1;
-    height: 65px;
-    margin-top: 49px;
-    background: #3077C6;
-    border-radius: 5px;
-} 
+form.desctop .second input {
+  margin: 0px 3px;
+}
 
-.header__download {
-  margin-left: 25px;
-  margin-top: 100px;
+form.desctop .second input:first-child {
+  margin-right: 0;
+}
+
+form.desctop .first {
+  flex-grow: 3;
+}
+
+form.desctop .second {
+  flex-grow: 2;
+}
+
+form.desctop button {
+  flex-grow: 1;
+  height: 65px;
+  margin-top: 53px;
+  margin-bottom: 130px;
+  color: #fff;
+  background: #3077c6;
+  font-size: 24px;
+  border: none;
+  border-radius: 3px;
+}
+
+.bg-white {
+  background: #fff;
+}
+
+.header_market {
+  display: flex;
+  justify-content: center;
+}
+
+.header_market a {
+  display: block;
+}
+.header_market a:first-child {
+  margin-right: 10px;
+}
+.header_market a:last-child {
+  margin-left: 10px;
+}
+
+form.mobile {
+  background: #f5bd41;
+  padding: 8px;
+  margin-bottom: 25px;
+}
+
+form.mobile input {
+  width: 100%;
+  height: 50px;
+  border-radius: 3px;
+  border: none;
+  outline: none;
+  padding: 8px;
+  font-size: 15px;
+}
+
+form.mobile .first {
+  margin-bottom: 8px;
+}
+
+form.mobile .first:first-child input {
+  padding-left: 36px;
+}
+
+form.mobile .first:first-child label {
+  position: relative;
+}
+
+form.mobile .first:first-child label::before {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  background-image: url('./search.svg');
+  top: 5px;
+  left: 10px;
+}
+
+form.mobile input::placeholder {
+  color: #383838;
+  font-weight: bold;
+}
+
+form.mobile .second {
+  display: flex;
+  margin-bottom: 8px;
+}
+
+form.mobile .second div:first-child {
+  margin-right: 5px;
+  flex: 1;
+}
+form.mobile .second div:last-child {
+  margin-left: 5px;
+  flex: 1;
+}
+
+form.mobile .second input {
+  padding: 16px 8px 0px 8px;
+}
+
+form.mobile .second div {
+  position: relative;
+}
+
+form.mobile .second label {
+  position: absolute;
+  font-size: 12px;
+  top: 5px;
+  left: 8px;
+}
+
+form.mobile .third {
+  display: flex;
+  margin-bottom: 8px;
+}
+
+form.mobile .third div {
+  flex: 1;
+}
+
+form.mobile .third div:nth-child(2) {
+  margin: 0 5px;
+}
+
+form.mobile .third input {
+  padding: 16px 8px 0px 8px;
+}
+
+form.mobile .third div {
+  position: relative;
+}
+
+form.mobile .third label {
+  position: absolute;
+  font-size: 12px;
+  top: 5px;
+  left: 8px;
+}
+
+form.mobile button {
+  color: #fff;
+  background: #3077c6;
+  font-size: 24px;
+  border: none;
+  border-radius: 3px;
+  width: 100%;
+  height: 48px;
 }
 
 .container {
@@ -187,6 +352,7 @@ footer {
   margin: 0px auto;
   padding:10px 0;
   height: 100vh;
+  width: 1140px;
 }
 
 .footer-content {
@@ -241,57 +407,68 @@ margin-left: 180px;
 font-size: 14px;
 line-height: 16px;} 
 
-    /* Header */
+ /* Header */
 
-@media (min-width: 561px){
-  .form__mobile {
+ @media (min-width: 850px) {
+  .container {
+    max-width: 1440px;
+  }
+  form.mobile {
     display: none;
+  }
+  form.desctop {
+    display: flex;
   }
 }
 
-@media (max-width: 560px) {
-  /* header */
-
- .container {
-   display: none;
- }
- .header__bg_mob {
-   display:block;
-   background-image: url(./img/castelmezzano-1979546\ 1.svg);
-   margin-top: 100px;
-   background-size: cover;
-   background-repeat: none;
- }
-
-  .header__wrapper_mob{
-    color: #3077C6;
+@media (max-width: 849px) {
+  .container {
+    max-width: 100%;
+    min-width: 400px;
+    padding: 0 20px;
   }
 
+  .header {
+    padding-top: 20px;
+  }
 
- .header_txt_mob{
-   color: white;
- }
+  .header__top {
+    margin-bottom: 50px;
+  }
 
- .form__mobile {
-   width: 328px;
-   height: 232px;
-   display: flex;
-   justify-content: center;
-   margin: 0px auto;
-   background: #F5BD41;
- }
- .form__mobile_destination {
-  
-   width: 1200px;
-   height: 15px;
- }
- .form__mobile_date {
-   margin-top: 80px;
-   
- }
- .form__mobile_persons {
-   margin-top: 260px;
- }
+  .header__top:first-child img {
+    width: 125px;
+  }
+
+  .underline {
+    display: none;
+  }
+
+  .header__top ul li:nth-child(3) a {
+    width: 16px;
+    height: 16px;
+  }
+
+  .header__top ul li:nth-child(4) a {
+    width: 24px;
+    height: 24px;
+  }
+
+  .header__top ul li:last-child a {
+    display: block;
+  }
+
+  h1 {
+    font-size: 30px;
+    margin-bottom: 50px;
+    line-height: 30px;
+  }
+  form.mobile {
+    display: block;
+  }
+  form.desctop {
+    display: none;
+  }
 }
 
    /* Main */
