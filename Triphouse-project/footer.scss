@@ -8,10 +8,10 @@ footer {
   display: flex;
   justify-content: space-around;
   flex-direction: row;
+  margin: 80px;
 }
 
 .footer-content__list {
-  margin: 120px 0px;
   padding: 20px;
   list-style: none;
   padding: 20px;
@@ -66,6 +66,9 @@ footer {
 }
 
 @media (max-width: 560px) {
+  .footer-content {
+    margin: 0;
+  }
   .footer-content__list {
     display: none;
   }

@@ -21,7 +21,7 @@
 .header__top {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 200px;
+  margin-bottom: 130px;
   padding-top: 50px;
 }
 .header__top ul {
@@ -152,7 +152,7 @@ form.desctop .second {
 form.desctop button {
   flex-grow: 1;
   height: 65px;
-  margin-top: 53px;
+  margin-top: 50px;
   margin-bottom: 130px;
   color: #ffffff;
   background: #3077c6;
@@ -169,6 +169,7 @@ form.mobile {
   background: #f5bd41;
   padding: 8px;
   margin-bottom: 25px;
+  margin-right: 15px;
 }
 form.mobile input {
   width: 100%;
@@ -531,10 +532,10 @@ footer {
   display: flex;
   justify-content: space-around;
   flex-direction: row;
+  margin: 80px;
 }
 
 .footer-content__list {
-  margin: 120px 0px;
   padding: 20px;
   list-style: none;
   padding: 20px;
@@ -584,6 +585,10 @@ footer {
   }
 }
 @media (max-width: 560px) {
+  .footer-content {
+    margin: 0;
+  }
+
   .footer-content__list {
     display: none;
   }
