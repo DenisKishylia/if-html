@@ -24,7 +24,7 @@
        url('./fonts/roboto-v27-latin-500.svg#Roboto') format('svg'); /* Legacy iOS */
 }
 
-* {
+/* * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -33,9 +33,9 @@
 
 .container {
   margin: 0px auto;
-}
+} */
 
-.header_bg {
+/* .header_bg {
   background-image: url('./ikons/background_main.svg');
   background-size: cover;
   background-repeat: none;
@@ -319,9 +319,9 @@ form.mobile button {
   border-radius: 3px;
   width: 100%;
   height: 48px;
-}
+} */
 
-.container_of {
+/* .container_of {
   margin: 0px auto;
 text-align: center;
 max-width: 1200px;
@@ -362,9 +362,9 @@ background: #f5bd41;
   padding-bottom: 122px;
   font-size: 25px;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
+} */
 
-.rec {
+/* .rec {
   background-color: #EAF0F9;;
 }
 
@@ -411,9 +411,9 @@ background: #f5bd41;
   font-style: normal;
   font-weight: 400;
   margin-top: 24px;
-}
+} */
 
-footer {
+ /* footer {
   background: #10367C;
   margin: 0px auto;
   padding:10px 0;
@@ -469,11 +469,13 @@ color: #fff;
 color: rgb(255, 255, 255);
 margin-left: 180px;
 font-size: 14px;
-line-height: 16px;} 
+line-height: 16px;}  */
 
  /* Header */
 
- @media (min-width: 850px) {
+ /* Header */
+
+ /* @media (min-width: 850px) {
   .container {
     max-width: 1440px;
   }
@@ -483,9 +485,9 @@ line-height: 16px;}
   form.desctop {
     display: flex;
   }
-}
+} */
 
-@media (max-width: 849px) {
+/* @media (max-width: 849px) {
   .container {
     max-width: 100%;
     min-width: 400px;
@@ -534,11 +536,11 @@ line-height: 16px;}
   form.desctop {
     display: none;
   }
-}
+} */
 
    /* Main */
 
- @media (min-width:561px){
+ /* @media (min-width:561px){
    .content_mob {
      display: none;
    }
@@ -577,10 +579,10 @@ line-height: 16px;}
     margin-top: 20px;
     margin-bottom: 40px;
   }
-}
+} */
 
   /* Recommendation */ 
-
+/* 
   @media (min-width: 561px) {
     .rec {
       display: block;
@@ -658,10 +660,10 @@ line-height: 16px;}
         cursor: pointer;
         transition: .3s linear;
     }
-}   
+}    */
 
     /* Footer */
-@media (min-width:561px){
+/* @media (min-width:561px){
   .footer__mobile_wrapper {
     display: none;
   }
@@ -674,5 +676,4 @@ line-height: 16px;}
   .footer__mobile_wrapper {
     display: block;
   }
-}
-
+} */
